@@ -9,6 +9,7 @@ import java.util.List;
 
 @Entity
 public class NewsPost {
+    ///test
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
