@@ -11,7 +11,7 @@ import java.nio.file.StandardCopyOption;
 
 public class FileUploadUtil {
     public static void saveFile(Path uploadPath, String fileName, MultipartFile multipartFile) throws IOException {
-        Path uploadPathTarget = Paths.get("c:/Users/Volodymyr/IdeaProjects/my-project-1/target/classes/static/images/");
+        Path uploadPathTarget = Paths.get("E:/Java/gh/my-project-1/target/classes/static/images");
 
         if (!Files.exists(uploadPath)) {
             Files.createDirectories(uploadPath);
